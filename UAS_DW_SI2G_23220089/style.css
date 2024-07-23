@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .container{
+    background-color: #122546;
+    width: 100%;
+    height: 70px;
+    color: white;
+    position: fixed;
+    border-radius: 100px;
+    overflow-y: auto;
+  }
+  
+  .judul{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
+  
+  .menu{
+    margin-left: 750px;
+    padding-top: 20px;
+  }
+  
+  .menu button{
+    padding: 10px;
+    width: 110px;
+    border-radius: 50px;
+    border: none;
+    background-color: #9ae6eb;
+  }
+  
+  .menu button:hover{
+    background-color: #233f71;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  
+  .menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu ul li a:hover{
+    color: #9ae6eb;
+    font-style: italic;
+  }
+  
+  
+  .banner{
+    background-color: #264176;
+    height: 600px;
+    text-align: center;
+    color: white;
+  }
+  
+  .banner img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+  
+  }
+  
+  .banner h1{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: lightblue;
+    font-size: 70px;
+  }
+  
+  .banner button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ffec8e;
+  }
+  
+  .banner button:hover{
+    background-color: #9ae6eb;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .Riwayat{
+    margin: 100px auto;
+    width: 75%;
+   }
+   
+   .Riwayat img{
+     float: left;
+     height: 200px;
+     max-width: 350px;
+     border-radius: 100px;
+     margin-right: 50px;
+     border: 6px solid white;
+   }
+   
+   .Riwayat h2{
+     margin-top: 5px;
+     margin-bottom: 10px;
+     color: #4d5c5f;
+     font-size: 30px;
+   }
+   
+   .Riwayat p{
+     color: #7b7b7b;
+   }
+   
+   .Pendidikan{
+     text-align: center;
+     color: #40585b;
+     margin-top: 150px;
+     align-content: center;
+   }
+   
+   .box-kiri, .box-tengah, .box-kanan {    
+     width: 300px;
+     height: 320px;
+     background-color: #f0f0f0;  
+     text-align: center;
+     padding: 50px 30px;
+     margin: 60px 10px 10px 45px;
+     border-radius: 5px;
+     float: left;
+   }
+   
+   .box-kiri:hover, .box-tengah:hover, .box-kanan:hover{
+     background-color: #9ae6eb;
+     color: white;
+   }
+   
+   .Pendidikan h3, p{
+   
+     margin-top: 10px;
+     margin-bottom: 30px;
+     padding-top: 0px 20px;
+   }
+   
+   .Softskill{
+     text-align: center;
+     color: #40585b;
+     margin-top: 560px;
+     align-content: center;
+   }
+   
+   .Kontak{
+    margin: 200px;
+     font-family: sans-serif;
+     background-color: #122546;
+     padding: 50px 30px;
+     margin: 600px 20px 20px 55px;
+     border-radius: 30px;
+   
+   }
+   
+   .Kontak img{
+     float: left;
+     height: 100px;
+     max-width: 200px;   
+     margin-right: 50px;
+   }
+   
+   .Kontak button{
+     float: right;
+     padding: 10px;
+     width: 200px;
+     border-radius: 50px;
+     border: none;
+     background-color: #ffec8e;
+   }
+
+   .footer {
+    background-color: #213C6E;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .footer-text {
+    color: #FFFFFF;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    margin: 0;
+  }
+   
+   
+   
